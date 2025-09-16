@@ -11,7 +11,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 @RestController
-
+    
 public class VideoController {
 
     @GetMapping("/video/{filename}")
@@ -35,6 +35,6 @@ public class VideoController {
 
      @GetMapping("/show")
     public String home(){
-        return "app is running";
+        return "app is still running";
     }
 }
