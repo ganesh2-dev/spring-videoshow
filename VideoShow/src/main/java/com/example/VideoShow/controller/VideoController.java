@@ -35,6 +35,6 @@ public class VideoController {
 
      @GetMapping("/show")
     public String home(){
-        return "app is running";
+        return "app is still running";
     }
 }
