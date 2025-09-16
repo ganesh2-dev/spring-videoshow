@@ -32,4 +32,9 @@ public class VideoController {
                 .contentType(MediaType.parseMediaType("video/mp4"))
                 .body(videoResource);
     }
+
+     @GetMapping("/show")
+    public String home(){
+        return "app is running";
+    }
 }
